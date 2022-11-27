@@ -1,17 +1,3 @@
-# github.com/XiaoMi/pegasus-go-client v0.0.0-20210427083443-f3b6b08bc4c2
-## explicit; go 1.13
-github.com/XiaoMi/pegasus-go-client/admin
-github.com/XiaoMi/pegasus-go-client/idl/admin
-github.com/XiaoMi/pegasus-go-client/idl/base
-github.com/XiaoMi/pegasus-go-client/idl/cmd
-github.com/XiaoMi/pegasus-go-client/idl/radmin
-github.com/XiaoMi/pegasus-go-client/idl/replication
-github.com/XiaoMi/pegasus-go-client/idl/rrdb
-github.com/XiaoMi/pegasus-go-client/pegalog
-github.com/XiaoMi/pegasus-go-client/pegasus
-github.com/XiaoMi/pegasus-go-client/pegasus/op
-github.com/XiaoMi/pegasus-go-client/rpc
-github.com/XiaoMi/pegasus-go-client/session
 # github.com/allegro/bigcache/v3 v3.1.0
 ## explicit; go 1.16
 github.com/allegro/bigcache/v3
@@ -22,9 +8,6 @@ github.com/beorn7/perks/quantile
 # github.com/bradfitz/gomemcache v0.0.0-20221031212613-62deef7fc822
 ## explicit; go 1.12
 github.com/bradfitz/gomemcache/memcache
-# github.com/cenkalti/backoff/v4 v4.1.3
-## explicit; go 1.13
-github.com/cenkalti/backoff/v4
 # github.com/cespare/xxhash/v2 v2.1.2
 ## explicit; go 1.11
 github.com/cespare/xxhash/v2
@@ -65,21 +48,18 @@ github.com/golang/mock/gomock
 ## explicit; go 1.9
 github.com/golang/protobuf/proto
 github.com/golang/protobuf/ptypes/timestamp
-# github.com/gopherjs/gopherjs v1.17.2
-## explicit; go 1.17
-github.com/gopherjs/gopherjs/js
-# github.com/jtolds/gls v4.20.0+incompatible
+# github.com/kr/text v0.2.0
 ## explicit
-github.com/jtolds/gls
 # github.com/matttproud/golang_protobuf_extensions v1.0.4
 ## explicit; go 1.9
 github.com/matttproud/golang_protobuf_extensions/pbutil
+# github.com/niemeyer/pretty v0.0.0-20200227124842-a10e7caefd8e
+## explicit; go 1.12
+# github.com/onsi/gomega v1.20.1
+## explicit; go 1.18
 # github.com/patrickmn/go-cache v2.1.0+incompatible
 ## explicit
 github.com/patrickmn/go-cache
-# github.com/pegasus-kv/thrift v0.13.0
-## explicit
-github.com/pegasus-kv/thrift/lib/go/thrift
 # github.com/pkg/errors v0.9.1
 ## explicit
 github.com/pkg/errors
@@ -106,24 +86,6 @@ github.com/prometheus/common/model
 github.com/prometheus/procfs
 github.com/prometheus/procfs/internal/fs
 github.com/prometheus/procfs/internal/util
-# github.com/sirupsen/logrus v1.9.0
-## explicit; go 1.13
-github.com/sirupsen/logrus
-# github.com/smartystreets/assertions v1.13.0
-## explicit; go 1.17
-github.com/smartystreets/assertions
-github.com/smartystreets/assertions/internal/go-diff/diffmatchpatch
-github.com/smartystreets/assertions/internal/go-render/render
-github.com/smartystreets/assertions/internal/oglematchers
-github.com/smartystreets/assertions/should
-# github.com/smartystreets/goconvey v1.7.2
-## explicit; go 1.16
-github.com/smartystreets/goconvey/convey
-github.com/smartystreets/goconvey/convey/gotest
-github.com/smartystreets/goconvey/convey/reporting
-# github.com/spf13/cast v1.5.0
-## explicit; go 1.18
-github.com/spf13/cast
 # github.com/stretchr/testify v1.8.1
 ## explicit; go 1.13
 github.com/stretchr/testify/assert
@@ -189,16 +151,8 @@ google.golang.org/protobuf/runtime/protoiface
 google.golang.org/protobuf/runtime/protoimpl
 google.golang.org/protobuf/types/descriptorpb
 google.golang.org/protobuf/types/known/timestamppb
-# gopkg.in/natefinch/lumberjack.v2 v2.0.0
+# gopkg.in/check.v1 v1.0.0-20200227125254-8fa46927fb4f
 ## explicit
-gopkg.in/natefinch/lumberjack.v2
-# gopkg.in/tomb.v2 v2.0.0-20161208151619-d5d1b5820637
-## explicit
-gopkg.in/tomb.v2
 # gopkg.in/yaml.v3 v3.0.1
 ## explicit
 gopkg.in/yaml.v3
-# k8s.io/apimachinery v0.25.3
-## explicit; go 1.19
-k8s.io/apimachinery/pkg/util/errors
-k8s.io/apimachinery/pkg/util/sets
